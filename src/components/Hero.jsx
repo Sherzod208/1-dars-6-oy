@@ -1,24 +1,22 @@
 function Hero() {
   return (
     <>
-      <section className="hero">
-        <div className="hero-parent">
-          <div className="hero-content">
-            <h2 className="hero-title">
-              Tabiiy davolash usullari yordamida <br /> 
-               kasalliklardan xalos bo’ling.
-            </h2>
-            <p className="hero-text">
-              Hijoma, manual terapiya, zuluk va turli tabiiy <br />
-               giyohlar eng ko’p uchraydigan kasalliklarni <br /> yengishda yordam beradi. Sog’ligingizni
-              o’z ishining <br /> professionallariga ishonib topshiring.
-            </p>
-            <a href="#" className="hero-btn">
-              Qabulga yozilish
-            </a>
-          </div>
-          <img className="hero-img" src="./hero-img.png" alt="Hero img" />
+      <section className="b1">
+        <div className="b5">
+        <h1 className="b2">
+          Tabiiy davolash usullari yordamida <br /> kasalliklardan xalos bo’ling.
+        </h1>
+        <p className="b3">
+          Hijoma, manual terapiya, zuluk va turli tabiiy <br />
+           giyohlar eng ko’p uchraydigan kasalliklarni <br />
+            yengishda yordam beradi. Sog’ligingizni o’z ishining <br />
+             professionallariga ishonib topshiring.
+        </p>
+        <button className="b4">Qabulga yozilish</button>
         </div>
+        <div>
+      <img className="hero-img" src="./hero-img.png" alt="Hero img" />
+      </div>
       </section>
     </>
   );

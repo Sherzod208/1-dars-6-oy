@@ -1,17 +1,11 @@
 export default function CTA() {
   return (
-    <section className="cta">
-      <div>
-        <h2 className="cta-title">Qabulga ro'yxatdan o'ting</h2>
-        <div className="cta-btn-parent">
-          <a className="cta-btn" href="#">
-            QO'NG'IROQ QILISH
-          </a>
-          <a className="cta-btn" href="#">
-            TELEGRAMDAN YOZISH
-          </a>
-        </div>
-      </div>
+    <section className="b6">
+        <h1 className="b7">Qabulga ro'yxatdan o'ting</h1>
+    <div className="b10">
+      <button className="b9">Qo’ng’iroq qilish</button>
+      <button className="b9">Qo’ng’iroq qilish</button>
+    </div>
     </section>
   );
 }
